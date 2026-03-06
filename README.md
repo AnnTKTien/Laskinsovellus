@@ -12,6 +12,7 @@ Laskimen teko Pythonilla hyödyntäen Decoraattoria tulostuksessa.
 3. Valitse haluamasi laskutoimitus (1-4).
 4. Anna kaksi numeerista arvoa.
 5. Tulos tulostuu terminaaliin!
+6. Aja ohjelma uudestaan!
 
 ## Ohjelman toteutuksessa käytössä oleva Decorator
 ```python
