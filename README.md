@@ -14,8 +14,8 @@ Laskimen teko Pythonilla hyödyntäen Decoraattoria tulostuksessa.
 5. Tulos tulostuu terminaaliin!
 
 ## Ohjelman toteutuksessa käytössä oleva Decorator
-def printing_result(base_fn):
-    def enhanced_fn(*args, **kwargs):
-        result = base_fn(*args, **kwargs)
-        print(f"{a} {merkki} {b} = {result}")
-    return enhanced_fn
+def printing_result(base_fn):  
+    def enhanced_fn(*args, **kwargs):  
+        result = base_fn(*args, **kwargs)  
+        print(f"{a} {merkki} {b} = {result}")  
+    return enhanced_fn  
