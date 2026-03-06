@@ -41,22 +41,22 @@ while True:
 # Jos valinta on välillä (1-4) suoritetaan funktio valinnan mukaan ja sen jälkeen ohjelman suoritus lopetetaan. Valinnoissa myös muuttuja merkille, joka määrittää mikä
 # laskun mukana tulostettaan.
     if valinta in ["1", "2", "3", "4"]:
-        # Pyydetään käyttäjältä kaksi arvoa
+        # Pyydetään käyttäjältä kaksi arvoa ja tallennetaan ne muuttujiin.
         a = int(input("Anna ensimmäinen numero: "))
         b = int(input("Anna toinen numero: "))
-
+        # Summa
         if valinta == "1":
             merkki = "+"
             add(a, b)
-
+        # Erotus
         elif valinta == "2":
             merkki = "-"
             sub(a, b)
-
+        # Tulo
         elif valinta == "3":
             merkki = "*"
             mul(a, b)
-
+        # Jako
         elif valinta == "4":
             merkki = "/"
             div(a, b)
