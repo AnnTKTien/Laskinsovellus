@@ -6,35 +6,26 @@ def printing_result(base_fn):
     return enhanced_fn
 
 # Funktio joka summaa kaksi arvoa ja palauttaa.
-
-
 @printing_result
 def add(a, b):
     return a + b
 
 # Funktio joka vähentää kaksi arvoa ja palauttaa.
-
-
 @printing_result
 def sub(a, b):
     return a - b
 
 # Funktio joka kertoo kaksi arvoa ja palauttaa.
-
-
 @printing_result
 def mul(a, b):
     return a * b
 
 # Funktio joka jakaa kaksi arvoa ja palauttaa. Tässä on myös huomioitu 0 jakamisen mahdottomuus.
-
-
 @printing_result
 def div(a, b):
     if b == 0:
         return "Nollalla ei voi jakaa!"
     return a / b
-
 
 # Tämä on tulostus, joka suoritetaan ohjelman alussa
 print("""---Laskin--
@@ -44,11 +35,11 @@ Valitse lasku operaatio
 3.Tulo
 4.Jako""")
 
-# While-loopin sisällä varmistetaan että valittu arvo on välillä (1-4) vain numeeriset arvot hyväksytään, mutta vastaanotetaan tekstinä.
+# While-loopin sisällä varmistetaan että valittu arvo on välillä (1-4) vain numeeriset arvot hyväksytään, mutta arvot vastaanotetaan string-muodossa.
 while True:
     valinta = input("Valitse operaatio numeroilla (1-4): ")
-# Jos valinta on välillä (1-4) suoritetaan funktio valinnan mukaan ja sen jälkeen ohjelman suoritus lopetetaan. Valinnoissa myös muuttuja merkille, joka määrittää mikä
-# laskun mukana tulostettaan.
+# Jos valinta on välillä (1-4) suoritetaan funktio valinnan mukaan, tapahtuu tulostus ja sen jälkeen ohjelman suoritus lopetetaan.
+#Valinnoissa myös muuttuja merkille, joka määrittää mikä laskun mukana tulostettaan.
     if valinta in ["1", "2", "3", "4"]:
         # Pyydetään käyttäjältä kaksi arvoa
         a = int(input("Anna ensimmäinen numero: "))
