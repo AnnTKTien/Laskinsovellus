@@ -22,3 +22,6 @@ def printing_result(base_fn):
         print(f"{a} {merkki} {b} = {result}")
         return result
     return enhanced_fn
+
+
+###Decoraattori huolehtii tulostuksesta, joten laskufunktiot voivat keskittyä vain laskemiseen.
