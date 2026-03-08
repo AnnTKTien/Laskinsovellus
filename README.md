@@ -14,7 +14,8 @@ Laskimen teko Pythonilla hyödyntäen Decoraattoria tulostuksessa.
 5. Tulos tulostuu terminaaliin.
 6. Aja ohjelma uudestaan!
 
-## Ohjelman toteutuksessa käytössä oleva Decorator
+
+## Ohjelman toteutuksessa käytössä oleva Decorator, joka huolehtii tulostuksesta, joten laskufunktiot voivat keskittyä vain laskemiseen.
 ```python
 def printing_result(base_fn):
     def enhanced_fn(*args, **kwargs):
@@ -23,5 +24,11 @@ def printing_result(base_fn):
         return result
     return enhanced_fn
 
-
-###Decoraattori huolehtii tulostuksesta, joten laskufunktiot voivat keskittyä vain laskemiseen.
+## Ohjelman toteutuksessa käytössä oleva Decorator
+```python
+def printing_result(base_fn):
+    def enhanced_fn(*args, **kwargs):
+        result = base_fn(*args, **kwargs)
+        print(f"{a} {merkki} {b} = {result}")
+        return result
+    return enhanced_fn
