@@ -8,7 +8,7 @@ Laskimen teko Pythonilla hyödyntäen Decoraattoria tulostuksessa.
 
 ## Käyttöohje
 1. Varmista, että koneelle on asennettu Python.
-2. Aja tiedosto käyttäen komentoa: python ("antamasi tiedostonimi").py
+2. Aja tiedosto käyttäen komentoa: python tiedostonimi.py
 3. Valitse haluamasi laskutoimitus (1-4).
 4. Anna kaksi numeerista arvoa.
 5. Tulos tulostuu terminaaliin.
