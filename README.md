@@ -23,12 +23,3 @@ def printing_result(base_fn):
         print(f"{a} {merkki} {b} = {result}")
         return result
     return enhanced_fn
-
-## Ohjelman toteutuksessa käytössä oleva Decorator
-```python
-def printing_result(base_fn):
-    def enhanced_fn(*args, **kwargs):
-        result = base_fn(*args, **kwargs)
-        print(f"{a} {merkki} {b} = {result}")
-        return result
-    return enhanced_fn
